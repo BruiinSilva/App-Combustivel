@@ -28,8 +28,9 @@ function combustivel() {
   function verificarInput(event) {
     var num = event.key
   
-    if (num != 0 && num != 1 && num != 2 && num != 3 && num != 4 && num != 5 && num != 6 && num != 7 && num != 8 && num != 9 && num != ',' && num != '.' && num != 'Tab' && num != 'Enter' && num != 'Backspace' && num != 'Delete' && letra != 'ArrowLeft' && letra != 'ArrowRight') {
-      alert("Caractere inválido!")
+    if (num != 0 && num != 1 && num != 2 && num != 3 && num != 4 && num != 5 && num != 6 && num != 7 && num != 8 && num != 9 && letra != ',' && letra != '.' && letra != 'Tab' && letra != 'Enter' && letra != 'Backspace' && letra != 'Delete' && letra != 'ArrowLeft' && letra != 'ArrowRight') {
+        alert("Caractere inválido!")
+        
       document.getElementById("gasolina").value = "";
       document.getElementById("etanol").value = "";
     }
