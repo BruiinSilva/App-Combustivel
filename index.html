@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno C.Gomes" />
+
+    <!--Mecanismo de busca-->
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="combustivel, combustível, app, web, webapp, etanol, gasolina, melhor, senai, Bruno, Gomes, Cosme, desenvolvedor, desenvolvimento, desenvolvido, noturno, front, end, front-end, instrutor, ti, html, css, javascript" />
+    <meta name="description" content="Webapp desenvolvido pelo Programador Bruno C.Gomes para o Curso do Senai Front End Noturno" />
+
+    <!--CSS EXTERNO-->
+    <link href="css/estilo.css" rel="stylesheet" type="text/css" media="all" /> 
+
+    <title>App combustível</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <section>
+                <h1>Gok'us Combustível</h1>
+                <hr/><br/><br/>
+            
+                <h2 id="result"></h2>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <!-- plano de fundo-->
+             <section class="fundo">
+                <form onsubmit="return false;">
+                    <label>Valor da gasolina:</label><br/>
+                    <label>R$</label>
+                    <input type="text" placeholder="0,00" id="gasolina" onkeydown="verificarInput(event);"  /><br/><br/>
+                    <label>Valor do etanol:</label><br/>
+                    <label>R$</label>
+                    <input type="text" placeholder="0,00" id="etanol" onkeydown="verificarInput(event);"/><br/><br/>
+                    <button onclick="combustivel();">Calcular</button>
+                </form>
+            </section>
+        </div>  
+    </main>
+
+
+    <!--MEU JS-->
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+/*da um efeito no botão*/
+button:hover{
+    cursor: pointer;
+    background-color: #050a01;
+    transition: 0.5s;
+  }
+
+ /* mexe no tamannho do visor */
+ form {
+    padding: 30px 15px;
+    border-radius: 20px;
+    border: 5px rgb(53, 224, 18) outset;
+    box-shadow: 1px 5px black;
+    background-color: white;
+  }
+  
+
+  /* mexe no tamanho fundo*/
+  .container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 30%;
+  }
+
+  
+  /* mexe no formato da letra*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  button {
+    width: 80%;
+    margin: 0px 10px;
+    padding: 5px 0px;
+    border-radius: 6px;
+    border: 1px none;
+    background-color: #e40909;
+    font-weight: bolder;
+    color: rgb(253, 253, 253);
+    transition: 0.5s;
+  }
+
+ 
+  label {
+    font-weight: bolder;
+  }
+  
+  /* mexe na largura do visor*/
+  input {
+    width: 100px;
+    margin-top: 5px;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: 1.5px #111 solid;
+    text-align: end;
+  }
+  
+  
+/* mexe no tamanho da tela */
+main div {
+    padding: 70px 0px;
+    background-image: url(../imagens/posto.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border-left: 2px solid rgb(79, 23, 211);
+    border-top: 2px solid rgb(221, 25, 25);
+    border-right: 2px solid rgb(11, 207, 54);
+    border-bottom: 2px solid rgb(218, 20, 135);
+  }
+  
